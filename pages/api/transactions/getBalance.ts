@@ -25,7 +25,16 @@ export default async function handler(
   const balanceEther = await web3.utils.fromWei(balanceWei, 'ether');
   const balanceEtherNumber: number = +balanceEther;
 
-  return res.status(200).json({
-    balance: balanceEtherNumber,
-  });
+  /*
+  Assignment 2:  Now we have a Next.js API response handler that returns a JSON response containing the user's current balance.  We will return a 200 OK API response
+  containing a JSON Response body with one field, the balanceEtherNumber.
+
+  Check out the docs for more info:  https://web3js.readthedocs.io/en/v1.8.2/web3.html
+  If you need help check out the Infura blog:  https://blog.infura.io/post/getting-started-with-infura-28e41844cc89#module-2-3-transaction-code-implementation
+  */
+
+  // Your code goes here!
+
+
+
 }
